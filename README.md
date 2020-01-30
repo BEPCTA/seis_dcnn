@@ -13,7 +13,7 @@ No magic over big gaps, but still the restoration by NN is better than by a stan
 No artifacts were introduced, which is more important than filling the gaps.
 
 
-![AWS-Udacity badge](./project/data/pictures/AWS_Udacity.jpg | width=250)
+![AWS-Udacity badge](./project/data/pictures/AWS_Udacity.jpg)
 
 
 
