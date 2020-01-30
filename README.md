@@ -1,23 +1,19 @@
-train_main.ipynb  ---> training notebook
-             
+## This was my capstone project for Udacity Machine Learning Engineer Nano Degree 
 
-├── _project
-|   ├── train_main.ipynb    ---> training notebook,  needs :  helper.py
-|   ├── helpers.py          ---> reads matlab data and applies downsampling to batches, needed by train_main.ipynb  
-|   ├── test_interp.ipynb   ---> notebook to test saved models as a sanity check for training,
-|   |                              it also does benchmark interpolation with SciPy
-|   ├── figures4report.ipynb---> notebook to prepare figures for the final report,
-|   |                                needs:   infer_dcnnCPU.py
-|   └── infer_dcnnCPU.py    ---> does inference on CPU, needed by figures4report.ipynb
-| 
-├── _saved_models
-|   └── model_0??.pth  ---> saved models in PyTorch format
-|   
-├── _data
-|   ├── validation/saltdome_0???.mat ---> 10 examples of 150x300 for model validation 
-|   └── landmass1/*.mat              ---> 77 examples of 99x99 for training 
-|   
-├── report.pdf
-├── proposal.pdf
-└── README (this file)
-https://review.udacity.com/#!/reviews/2083305
+./project/train_main.ipynb  ---> training notebook
+
+In this project, I have trained a Deep Convolutional Neural Network to fill missing
+traces in seismic data.
+
+Here is an illustration of the result and a comparison with an interpolation by SciPy.
+
+![Example](./project/data/pictures/test.png)
+
+No magic over big gaps, but still the restoration by NN is better than by a standard library.
+No artifacts were introduced, which is more important than filling the gaps.
+
+
+![AWS-Udacity badge](./project/data/pictures/AWS_Udacity.jpg | width=250)
+
+
+
