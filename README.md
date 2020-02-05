@@ -12,8 +12,12 @@ Here is an illustration of the result and a comparison with an interpolation by 
 No magic over big gaps, but still the restoration by NN is better than by a standard library.
 No artifacts were introduced, which is more important than filling the gaps.
 
+### Question:
+Will it help to have convolution filters 5x5 ? Stay tunned for the answer.
 
-![AWS-Udacity badge](./project/data/pictures/AWS_Udacity.jpg)
+
+
+<img src="./project/data/pictures/AWS_Udacity.jpg" style="width:400px;height:400px;">
 
 
 
